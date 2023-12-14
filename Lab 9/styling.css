@@ -1,0 +1,190 @@
+#title {
+    background-color: white;
+    
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
+}
+
+h2{
+    font-family:"Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+p {
+    color: gray;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;  
+}
+.fa-rocket {
+    color:black;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.fa-solid {
+    color: black;
+    padding: 0 5px;
+
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Contact Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image */
+
+.title-image {
+    transform: rotate(0deg);
+    position: relative;
+    border-radius: 70%; 
+
+}
+
+
+/* Features Section */
+
+#skills {
+    padding: 2% 8%;
+    background-color: lightgray;
+    position: relative;
+    z-index: 1;
+
+}
+
+.skills-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: black; 
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: gray;
+}
+
+.portfolio-heading {
+    padding: 1% 0;  
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Portfolio Section */
+
+#portfolio {
+    padding: 10px;
+    text-align: center;
+}
+
+.pricing-header {
+    color: black;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/*Contact Section*/
+#contact {
+    padding-top: 35px;
+    background-color: lightslategray;
+    color: black;
+    text-align: center;
+    
+
+}
+
+.contact-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/*Footer Section*/
+#footer {
+    padding: 3% 6%;
+    text-align: center;
+
+}
+.footerlabel {
+    color: black;
+
+}
+
+.footertext {
+    color: black;
+}
+
+.copyright {
+    color: black;
+}
+
+.social-icon {
+    margin: 20px 5px;
+}
+
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+/*Media Queries*/   
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
